@@ -6,16 +6,19 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+@ObservedObject var fetcher = MovieFetcher()
+   
+   var body: some View {
+       VStack {
+           List(fetcher.movies) { movie in
+               VStack (alignment: .leading) {
+                   Text(movie.name)
+                   Text(movie.released)
+                       .font(.system(size: 11))
+                       .foregroundColor(Color.gray)
+               }
+           }
+       }
+   }
 }

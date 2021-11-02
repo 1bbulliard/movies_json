@@ -17,6 +17,8 @@
 		DF791EC12731C3D10024F698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF791E972731C3D00024F698 /* ContentView.swift */; };
 		DF791EC22731C3D10024F698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF791E982731C3D10024F698 /* Assets.xcassets */; };
 		DF791EC32731C3D10024F698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF791E982731C3D10024F698 /* Assets.xcassets */; };
+		DF791ED32731C49E0024F698 /* FetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF791ED22731C49E0024F698 /* FetchView.swift */; };
+		DF791ED42731C49E0024F698 /* FetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF791ED22731C49E0024F698 /* FetchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		DF791EB62731C3D10024F698 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF791EBA2731C3D10024F698 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		DF791EBC2731C3D10024F698 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		DF791ED22731C49E0024F698 /* FetchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				DF791E962731C3D00024F698 /* movies_jsonApp.swift */,
 				DF791E972731C3D00024F698 /* ContentView.swift */,
 				DF791E982731C3D10024F698 /* Assets.xcassets */,
+				DF791ED22731C49E0024F698 /* FetchView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -301,6 +305,7 @@
 			files = (
 				DF791EC02731C3D10024F698 /* ContentView.swift in Sources */,
 				DF791EBE2731C3D10024F698 /* movies_jsonApp.swift in Sources */,
+				DF791ED32731C49E0024F698 /* FetchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				DF791EC12731C3D10024F698 /* ContentView.swift in Sources */,
 				DF791EBF2731C3D10024F698 /* movies_jsonApp.swift in Sources */,
+				DF791ED42731C49E0024F698 /* FetchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
